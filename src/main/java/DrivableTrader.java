@@ -29,4 +29,5 @@ public class DrivableTrader extends Trader<Drivable> {
         }
     }
 }
+
 import java.util.List;
