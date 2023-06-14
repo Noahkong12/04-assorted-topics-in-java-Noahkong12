@@ -42,6 +42,17 @@ public class Trader<T> {
 
 
 
+     public Trader(int money) {
+        this(new ArrayList<>(), new ArrayList<>(), money);
+    }
+
+    public void addToWishlist(T item) {
+        wishlist.add(item);
+    }
+
+    public int getSellingPrice(T item) {
+        if (item instanceof Tradable) {
+            Tradable tradableItem = (Tradable) item;
 
 
     /* TODO: Implement the method addToWishlist that takes an
