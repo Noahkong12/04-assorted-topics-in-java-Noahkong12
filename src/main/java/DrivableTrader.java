@@ -9,6 +9,8 @@
  *
  * Look at DomesticatableTrader.java for an example.
  */
+import java.util.List;
+
 public class DrivableTrader extends Trader<Drivable> {
 
     public DrivableTrader(List<Drivable> inventory, List<Drivable> wishlist, int money) {
@@ -30,4 +32,4 @@ public class DrivableTrader extends Trader<Drivable> {
     }
 }
 
-import java.util.List;
+
